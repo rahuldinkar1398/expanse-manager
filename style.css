@@ -1,0 +1,90 @@
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+.border{
+	border:solid 1px #f2f2f2;
+}
+
+.title-bar{
+	color: white;
+}
+
+.pad30{
+	padding: 15px 30px;
+}
+
+.widgets{
+	background-color: cyan;
+	margin: 15px 0px;
+	text-align: center;
+	font-size: 14px;
+	padding: 15px;
+	color: white;
+	background-color: #374143;
+	cursor: pointer;
+}
+
+.graph{
+	height: 200px;
+	background-color: #374143;
+	margin: 15px 0px;
+}
+
+.table-expanse{
+	margin: 15px 0px;
+	padding: 15px 30px;
+}
+
+.table-menu ul{
+	list-style: none;
+	padding-left: 0;
+}
+
+.table-menu ul li{
+	display: inline-block;
+	padding: 5px 15px;
+	background-color: #374143;
+	border-radius: 15px;
+	font-size: 12px;
+	text-align: center;
+}
+
+a, a:hover{
+	color: white;
+	text-decoration: none;
+}
+
+.form-field{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding: 5px 10px;
+}
+
+.add-button{
+	padding: 10px 40px;
+	background-color: #374143;
+	color: white;
+	font-size: 14px;
+	border: none;
+	outline: none;
+
+}
+
+.table{
+	margin-bottom: 0;
+	overflow-x: scroll;
+}
+
+@media only screen and (min-width: 600px ) and (max-width: 768px) {
+    .widgets {
+        height: 70px;
+        border: solid 1px white;
+    }
+}
+
+@media only screen and (max-width: 768px){
+	.table-menu ul li{
+		margin-bottom: 5px;
+	}
+}
